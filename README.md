@@ -4,7 +4,7 @@ This is the code for our paper: <https://arxiv.org/abs/2310.17163>
 ## 1. Dataset preparation
 Refer to <https://github.com/deeplearning-wisc/knn-ood>
 ## 2. Pre-trained model
-please download here: <https://jbox.sjtu.edu.cn/v/list/self/1721407219938893851>
+Please download here: <https://jbox.sjtu.edu.cn/v/list/self/1721407219938893851>
 ## 3. Code run
 Our method has two steps: 
 ### 1. extract principal components using PCA or Average Gradient:
