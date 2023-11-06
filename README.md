@@ -8,13 +8,15 @@ please download here: <https://jbox.sjtu.edu.cn/v/list/self/1721407219938893851>
 ## 3. Code run
 Our method has two steps: 
 ### 1. extract principal components using PCA or Average Gradient:
-```bash github_PCA.sh start_k interval_k K sample_num  # eg: bash github_PCA.sh 0 5 200 50000```  
-
-```bash github_Average_gradient.sh K sample_num      # eg: bash github_Average_gradient.sh 1000 50000```
+```
+bash github_PCA.sh start_k interval_k K sample_num  # eg: bash github_PCA.sh 0 5 200 50000
+bash github_Average_gradient.sh K sample_num      # eg: bash github_Average_gradient.sh 1000 50000
+```
 ### 2. project gradients into the extracted low-dimensional subspace and employ them to detect OOD samples
-```python github_main.py --batch_size 16 --model resnet18 --data cifar10 --kernel NFK --base_method msp --ood_data SVHN```  
-
-```python github_main.py --batch_size 6 --model resnet50 --data imagenet --kernel NFK --base_method knn --ood_data dtd ```
+```
+python github_main.py --batch_size 16 --model resnet18 --data cifar10 --kernel NFK --base_method msp --ood_data SVHN
+python github_main.py --batch_size 6 --model resnet50 --data imagenet --kernel NFK --base_method knn --ood_data dtd
+```
 # Citation
 If you use our codebase, please cite our work:
 ```
