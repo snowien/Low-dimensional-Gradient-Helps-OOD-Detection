@@ -6,7 +6,7 @@ Refer to <https://github.com/deeplearning-wisc/knn-ood>
 ## 2. Pre-trained model
 please download here: <https://jbox.sjtu.edu.cn/v/list/self/1721407219938893851>
 ## 3. Code run
-We have two steps when running our method: 
+Our method has two steps: 
 ### 1. extract principal components using PCA or Average Gradient:
 ```bash github_PCA.sh start_k interval_k K sample_num  # eg: bash github_PCA.sh 0 5 200 50000```  
 
