@@ -25,4 +25,4 @@ If you use our codebase, please cite our work:
   year={2023}
 }
 ```
-If you have any problem, please send email to me. My email address is yingwen_wu@sjtu.edu.cn
+If you have any questions, please email me. My address is yingwen_wu@sjtu.edu.cn
